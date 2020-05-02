@@ -1,0 +1,150 @@
+baseURL = "https://thomdixon.org/"
+languageCode = "en-us"
+title = "Thom Dixon"
+theme = "hugo-woodruff"
+
+[markup.goldmark.renderer]
+    unsafe= true
+
+[params]
+    title = "My name is Thom Dixon."
+    author = "Thom Dixon"
+    description = "Hi, my name is Thom Dixon."
+
+    [params.contact]
+        email = "thom@thomdixon.org"
+        phone = "+1-321-501-2624"
+
+    [[params.contact.list]]
+        class = "fab"
+        icon = "fa-linkedin-in"
+        url = "http://www.linkedin.com/profile/view?id=195351477"
+        title = "LinkedIn"
+
+    [[params.contact.list]]
+        class = "fab"
+        icon = "fa-github"
+        url = "https://github.com/thomdixon"
+        title = "GitHub"
+    
+     [[params.contact.list]]
+        class = "fab"
+        icon = "fa-facebook"
+        url = "http://facebook.com/thomas.e.dixon"
+        title = "Facebook"
+    
+    [params.profile]
+        class ="fas"
+        icon = "fa-user-astronaut"
+        title = "I love building things."
+        description = """\
+I'm a software engineer based in Seattle, WA with over 7 years of professional \
+experience and an additional 6 contributing to open source projects as a hobby.
+
+My time at both small startups and large corporations has enabled me to \
+become a proficient full-stack developer, but secure distributed systems and \
+infrastructure are my specialties.
+"""
+    
+    [params.experience]
+        class = "fas"
+        icon = "fa-briefcase"
+        title = "Industry Experience"
+
+    [[params.experience.list]]
+        company = "Oracle Cloud Infrastructure"
+        position = "Principal Member of Technical Staff"
+        dates = "April 2018 - *Present*"
+		link = "https://cloud.oracle.com/en_US/iaas"
+        description = """\
+<small>**Technologies used:** Python, Go, Java, JavaScript</small>
+
+- Key contributor to the authentication stack of [covid19.oracle.com](https://covid19.oracle.com).
+- Designed, implemented, and am driving the adoption of an SSH \
+Certificate-based solution for automated service accounts.
+- Own and maintain an authentication and authorization sidecar that permits \
+service owners to quickly meet and maintain security and compliance \
+requirements.
+- Key contributor to numerous internal security projects involving managing \
+and enforcing access control policies for internal operators across a large, \
+heterogenous cloud enviornment.\
+"""
+
+    [[params.experience.list]]
+        company = "Uber"
+        position = "Security Software Engineer"
+        dates = "June 2016 - April 2018"
+		link = "https://uber.com"
+        description = """\
+<small>**Technologies used:** Python, Go, JavaScript, Redis, MySQL</small>
+
+- Improved the performance of Uber’s secret storage service by reducing \
+network utilization by 90%, reducing p95 response time by 66%, and increasing \
+load capacity by 80x.
+- Suggested and implemented significant architectural changes to Uber’s cloud \
+document retention policy enforcement tool in order to improve efficiency and \
+debugability.
+- Implemented a FUSE filesystem client to Uber’s secret storage service to \
+permit the consumption of file-based secrets across Uber’s infrastructure.\
+"""
+
+    [[params.experience.list]]
+        company = "Influence Mobile (Louder Rewards)"
+        position = "Senior Software Engineer"
+        dates = "September 2015 - May 2016"
+		link = "https://www.louderrewards.com/"
+        description = """\
+<small>**Technologies used:** Ruby (on Rails), PostgreSQL, Java, JavaScript, \
+React Native</small>
+
+- Principal engineer implementing a new ad platform with Ruby on Rails aiming \
+to incentivize user engagement and re-engagement with customer mobile \
+apps.
+- A primary developer on the Louder Rewards mobile applications, utilizing \
+React Native.\
+"""
+
+    [[params.experience.list]]
+        company = "Ultimate Software"
+        position = "Security Software Engineer"
+        dates = "May 2013 - September 2015"
+		link = "https://www.ultimatesoftware.com/"
+        description = """\
+<small>**Technologies used:** Python, RabbitMQ, MySQL, Elasticsearch, Angular, \
+JavaScript</small>
+
+- Developed a plugin-based threat detection system with supporting \
+microservices (in Python, using RabbitMQ for IPC) and a corresponding web \
+front-end (with Angular).
+- Designed and implemented a lightweight JWT-based authentication system and \
+middleware that provide role-based security and service discovery.
+- On the build and deployment team, I spearheaded the development of a web \
+administration portal to be used by Ultimate’s operations teams for inventory \
+and customer tracking.\
+"""
+
+    [params.community]
+        class = "fas"
+        icon = "fa-hands-helping"
+        title = "Open Source Contributions"
+        description = """\
+Check out my [GitHub](https://github.com/thomdixon)! Some past contributions \
+of note include: fixing a bug for Android’s pull refresh in \
+[React Native](https://github.com/facebook/react-native/commit/d586daad5164e8ce11137414f4ffe893967c481f), \
+fixing a bug in the AES implementation of \
+[KeyCzar](https://github.com/google/keyczar/issues/43), and implementing five \
+ciphers for \
+[Bouncy Castle](https://github.com/bcgit/bc-java/blob/b73d2efafffb47f16b386379bef79c4ccc568767/CONTRIBUTORS.html#L276).\
+"""
+
+    [params.education]
+        class = "fas"
+        icon = "fa-graduation-cap"
+        title = "Education"
+
+    [[params.education.list]]
+        school = "University of Florida"
+        degree = "B.S. Mathematics with a minor in Computer Science"
+        dates = "Spring 2011 - Spring 2013"
+		link = "https://math.ufl.edu/"
+        description = "Graduated with a final overall GPA of 3.91"

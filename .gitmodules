@@ -1,0 +1,3 @@
+[submodule "themes/hugo-woodruff"]
+	path = themes/hugo-woodruff
+	url = https://github.com/thomdixon/hugo-woodruff.git
