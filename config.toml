@@ -38,7 +38,7 @@ theme = "hugo-woodruff"
         icon = "fa-user-astronaut"
         title = "I love building things."
         description = """\
-I'm a software engineer based in Seattle, WA with over 7 years of professional \
+I'm a software engineer based in Seattle with over 7 years of professional \
 experience and an additional 6 contributing to open source projects as a hobby.
 
 My time at both small startups and large corporations has enabled me to \
