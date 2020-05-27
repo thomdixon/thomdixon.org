@@ -18,7 +18,7 @@ theme = "hugo-woodruff"
     [[params.contact.list]]
         class = "fab"
         icon = "fa-linkedin-in"
-        url = "http://www.linkedin.com/profile/view?id=195351477"
+        url = "https://www.linkedin.com/in/thom-dixon"
         title = "LinkedIn"
 
     [[params.contact.list]]
@@ -57,9 +57,8 @@ infrastructure are my specialties.
         dates = "April 2018 - *Present*"
 		link = "https://cloud.oracle.com/en_US/iaas"
         description = """\
-<small>**Technologies used:** Python, Go, Java, JavaScript</small>
+<small>**Technologies used:** Go, Python, Java, JavaScript</small>
 
-- Key contributor to the authentication stack of [covid19.oracle.com](https://covid19.oracle.com).
 - Designed, implemented, and am driving the adoption of an SSH \
 Certificate-based solution for automated service accounts.
 - Own and maintain an authentication and authorization sidecar that permits \
@@ -67,7 +66,7 @@ service owners to quickly meet and maintain security and compliance \
 requirements.
 - Key contributor to numerous internal security projects involving managing \
 and enforcing access control policies for internal operators across a large, \
-heterogeneous cloud enviornment.\
+heterogeneous cloud environment.\
 """
 
     [[params.experience.list]]
