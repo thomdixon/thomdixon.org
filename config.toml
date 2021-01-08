@@ -26,11 +26,17 @@ theme = "hugo-woodruff"
         icon = "fa-github"
         url = "https://github.com/thomdixon"
         title = "GitHub"
+
+    [[params.contact.list]]
+        class = "fab"
+        icon = "fa-twitter"
+        url = "https://twitter.com/linefeed"
+        title = "Twitter"
     
      [[params.contact.list]]
         class = "fab"
         icon = "fa-facebook"
-        url = "http://facebook.com/thomas.e.dixon"
+        url = "https://facebook.com/thomas.e.dixon"
         title = "Facebook"
     
     [params.profile]
@@ -52,9 +58,20 @@ infrastructure are my specialties.
         title = "Industry Experience"
 
     [[params.experience.list]]
+        company = "Twitter"
+        position = "Senior Software Engineer"
+        dates = "November 2020 - *Present*"
+		link = "https://twitter.com"
+        description = """\
+<small>**Technologies used:** Python, JavaScript</small>
+
+- Recently joined the Security Automation and Tooling team.\
+"""
+
+    [[params.experience.list]]
         company = "Oracle Cloud Infrastructure"
         position = "Principal Member of Technical Staff"
-        dates = "April 2018 - *Present*"
+        dates = "April 2018 - November 2020"
 		link = "https://cloud.oracle.com/en_US/iaas"
         description = """\
 <small>**Technologies used:** Go, Python, Java, JavaScript</small>
