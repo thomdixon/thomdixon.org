@@ -44,8 +44,9 @@ theme = "hugo-woodruff"
         icon = "fa-user-astronaut"
         title = "I love building things."
         description = """\
-I'm a software engineer based in Seattle with over 7 years of professional \
-experience and an additional 6 contributing to open source projects as a hobby.
+I'm a software engineer based in Seattle with over 8 years of professional \
+experience and an additional 6 before that contributing to open source \
+projects as a hobby.
 
 My time at both small startups and large corporations has enabled me to \
 become a proficient full-stack developer, but secure distributed systems and \
@@ -76,10 +77,10 @@ infrastructure are my specialties.
         description = """\
 <small>**Technologies used:** Go, Python, Java, JavaScript</small>
 
-- Designed, implemented, and am driving the adoption of an SSH \
+- Designed, implemented, and drove the adoption of an SSH \
 Certificate-based solution for automated service accounts.
-- Own and maintain an authentication and authorization sidecar that permits \
-service owners to quickly meet and maintain security and compliance \
+- Owned and maintained an authentication and authorization sidecar that \
+permitted service owners to quickly meet and maintain security and compliance \
 requirements.
 - Key contributor to numerous internal security projects involving managing \
 and enforcing access control policies for internal operators across a large, \
