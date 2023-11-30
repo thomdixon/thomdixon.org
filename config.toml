@@ -11,6 +11,9 @@ theme = "hugo-woodruff"
     author = "Thom Dixon"
     description = "Hi, my name is Thom Dixon."
 
+   [params.contact]
+        email = "thom+www@thomdixon.org"
+
     [[params.contact.list]]
         class = "fab"
         icon = "fa-linkedin-in"
