@@ -11,10 +11,6 @@ theme = "hugo-woodruff"
     author = "Thom Dixon"
     description = "Hi, my name is Thom Dixon."
 
-    [params.contact]
-        email = "thom@thomdixon.org"
-        phone = "+1-321-501-2624"
-
     [[params.contact.list]]
         class = "fab"
         icon = "fa-linkedin-in"
