@@ -11,7 +11,7 @@ theme = "hugo-woodruff"
     author = "Thom Dixon"
     description = "Hi, my name is Thom Dixon."
 
-   [params.contact]
+    [params.contact]
         email = "thom+www@thomdixon.org"
 
     [[params.contact.list]]
